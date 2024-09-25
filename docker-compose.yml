@@ -43,5 +43,5 @@ volumes:
   mongo_data:
 
 networks: 
-  my-network: 
+  my_network: 
     driver: bridge
