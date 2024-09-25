@@ -6,4 +6,4 @@ cd app
 
 docker compose up -d --build 
 
-./script.sh
+./script2.sh
