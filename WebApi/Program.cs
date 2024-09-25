@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();
 builder.Services.AddSingleton<IMongoClient>(s =>
-    new MongoClient("mongodb://localhost:27017/"));
+    new MongoClient("mongodb://root:example@db:27017/"));
 
 // Configurar CORS si es necesario
 builder.Services.AddCors(options =>

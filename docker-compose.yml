@@ -1,4 +1,17 @@
 services:
+  db:
+    image: mongo:latest
+    container_name: db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root  
+      MONGO_INITDB_ROOT_PASSWORD: example 
+    networks:
+      - my_network
+      
   api:
     build: ./WebApi
     depends_on:
@@ -26,18 +39,6 @@ services:
     networks:
       - my_network
   
-  db:
-    build: ./db
-    container_name: db
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root  
-      MONGO_INITDB_ROOT_PASSWORD: example 
-    networks:
-      - my_network
 
 volumes:
   mongo_data:
