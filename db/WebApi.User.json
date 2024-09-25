@@ -1,0 +1,840 @@
+[{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215573"
+  },
+  "name": "Andrés",
+  "lastname": "Ceballos",
+  "email": "andres.ceballos@example.com",
+  "age": 26,
+  "address": "Calle Santa María 22, Lima",
+  "phone": "+51 945 123 456",
+  "gender": "Male",
+  "occupation": "Photographer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215574"
+  },
+  "name": "Teresa",
+  "lastname": "Alvarez",
+  "email": "teresa.alvarez@example.com",
+  "age": 29,
+  "address": "Av. La Paz 10, Arequipa",
+  "phone": "+51 955 678 901",
+  "gender": "Female",
+  "occupation": "Lawyer",
+  "created_at": "2024-09-22T12:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215575"
+  },
+  "name": "Raúl",
+  "lastname": "Gonzales",
+  "email": "raul.gonzales@example.com",
+  "age": 31,
+  "address": "Calle Libertador 34, Trujillo",
+  "phone": "+51 964 567 890",
+  "gender": "Male",
+  "occupation": "Chef",
+  "created_at": "2024-09-22T12:05:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215576"
+  },
+  "name": "Mariana",
+  "lastname": "Rivas",
+  "email": "mariana.rivas@example.com",
+  "age": 27,
+  "address": "Calle San Francisco 16, Cusco",
+  "phone": "+51 972 345 678",
+  "gender": "Female",
+  "occupation": "Musician",
+  "created_at": "2024-09-22T12:10:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215577"
+  },
+  "name": "Felipe",
+  "lastname": "Bravo",
+  "email": "felipe.bravo@example.com",
+  "age": 24,
+  "address": "Calle de la Cultura 8, Iquitos",
+  "phone": "+51 987 654 321",
+  "gender": "Male",
+  "occupation": "Technician",
+  "created_at": "2024-09-22T12:15:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215578"
+  },
+  "name": "Gina",
+  "lastname": "Torres",
+  "email": "gina.torres@example.com",
+  "age": 30,
+  "address": "Av. La Libertad 25, Piura",
+  "phone": "+51 915 678 543",
+  "gender": "Female",
+  "occupation": "Manager",
+  "created_at": "2024-09-22T12:20:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb7215579"
+  },
+  "name": "Esteban",
+  "lastname": "Maldonado",
+  "email": "esteban.maldonado@example.com",
+  "age": 22,
+  "address": "Calle Los Andes 45, Huancayo",
+  "phone": "+51 926 789 012",
+  "gender": "Male",
+  "occupation": "Intern",
+  "created_at": "2024-09-22T12:25:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb721557a"
+  },
+  "name": "Diana",
+  "lastname": "Valdés",
+  "email": "diana.valdes@example.com",
+  "age": 28,
+  "address": "Calle de los Árboles 9, Lima",
+  "phone": "+51 943 210 987",
+  "gender": "Female",
+  "occupation": "Consultant",
+  "created_at": "2024-09-22T12:30:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb721557b"
+  },
+  "name": "Nicolás",
+  "lastname": "Figueroa",
+  "email": "nicolas.figueroa@example.com",
+  "age": 25,
+  "address": "Calle 28 de Julio 33, Arequipa",
+  "phone": "+51 932 345 678",
+  "gender": "Male",
+  "occupation": "Software Engineer",
+  "created_at": "2024-09-22T12:35:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f054fa90d5ab4fb721557c"
+  },
+  "name": "Luciana",
+  "lastname": "Paredes",
+  "email": "luciana.paredes@example.com",
+  "age": 23,
+  "address": "Av. Los Jardines 17, Trujillo",
+  "phone": "+51 934 567 890",
+  "gender": "Female",
+  "occupation": "Teacher",
+  "created_at": "2024-09-22T12:40:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb721557e"
+  },
+  "name": "Cristian",
+  "lastname": "Castañeda",
+  "email": "cristian.castaneda@example.com",
+  "age": 29,
+  "address": "Calle del Comercio 12, Lima",
+  "phone": "+51 951 234 567",
+  "gender": "Male",
+  "occupation": "Entrepreneur",
+  "created_at": "2024-09-22T12:45:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb721557f"
+  },
+  "name": "Karla",
+  "lastname": "Moreno",
+  "email": "karla.moreno@example.com",
+  "age": 26,
+  "address": "Av. San Isidro 21, Arequipa",
+  "phone": "+51 962 345 678",
+  "gender": "Female",
+  "occupation": "Graphic Designer",
+  "created_at": "2024-09-22T12:50:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215580"
+  },
+  "name": "Oscar",
+  "lastname": "Rojas",
+  "email": "oscar.rojas@example.com",
+  "age": 32,
+  "address": "Calle San Martín 44, Trujillo",
+  "phone": "+51 974 567 890",
+  "gender": "Male",
+  "occupation": "Sales Manager",
+  "created_at": "2024-09-22T12:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215581"
+  },
+  "name": "Patricia",
+  "lastname": "Cano",
+  "email": "patricia.cano@example.com",
+  "age": 24,
+  "address": "Calle El Sol 36, Cusco",
+  "phone": "+51 985 678 901",
+  "gender": "Female",
+  "occupation": "Veterinarian",
+  "created_at": "2024-09-22T13:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215582"
+  },
+  "name": "Hugo",
+  "lastname": "Salas",
+  "email": "hugo.salas@example.com",
+  "age": 27,
+  "address": "Calle Los Pinos 18, Iquitos",
+  "phone": "+51 996 789 012",
+  "gender": "Male",
+  "occupation": "Mechanic",
+  "created_at": "2024-09-22T13:05:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215583"
+  },
+  "name": "Sandra",
+  "lastname": "Ramirez",
+  "email": "sandra.ramirez@example.com",
+  "age": 28,
+  "address": "Calle de la Esperanza 22, Piura",
+  "phone": "+51 905 678 123",
+  "gender": "Female",
+  "occupation": "Pharmacist",
+  "created_at": "2024-09-22T13:10:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215584"
+  },
+  "name": "Arturo",
+  "lastname": "Guerrero",
+  "email": "arturo.guerrero@example.com",
+  "age": 30,
+  "address": "Calle de los Ángeles 5, Huancayo",
+  "phone": "+51 914 567 890",
+  "gender": "Male",
+  "occupation": "Architect",
+  "created_at": "2024-09-22T13:15:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215585"
+  },
+  "name": "Natalia",
+  "lastname": "Córdova",
+  "email": "natalia.cordova@example.com",
+  "age": 23,
+  "address": "Calle de la Libertad 40, Lima",
+  "phone": "+51 943 210 987",
+  "gender": "Female",
+  "occupation": "Researcher",
+  "created_at": "2024-09-22T13:20:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215586"
+  },
+  "name": "Fernando",
+  "lastname": "Zambrano",
+  "email": "fernando.zambrano@example.com",
+  "age": 29,
+  "address": "Av. Los Héroes 29, Arequipa",
+  "phone": "+51 932 345 678",
+  "gender": "Male",
+  "occupation": "Data Analyst",
+  "created_at": "2024-09-22T13:25:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f0551c90d5ab4fb7215587"
+  },
+  "name": "Valentina",
+  "lastname": "Pérez",
+  "email": "valentina.perez@example.com",
+  "age": 25,
+  "address": "Calle Nueva 54, Trujillo",
+  "phone": "+51 934 567 890",
+  "gender": "Female",
+  "occupation": "Content Writer",
+  "created_at": "2024-09-22T13:30:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb7215589"
+  },
+  "name": "Javier",
+  "lastname": "Mendoza",
+  "email": "javier.mendoza@example.com",
+  "age": 31,
+  "address": "Calle del Mar 11, Lima",
+  "phone": "+51 901 234 567",
+  "gender": "Male",
+  "occupation": "Electrician",
+  "created_at": "2024-09-22T13:35:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558a"
+  },
+  "name": "Lucía",
+  "lastname": "Alarcón",
+  "email": "lucia.alarcon@example.com",
+  "age": 27,
+  "address": "Av. del Sol 77, Arequipa",
+  "phone": "+51 912 345 678",
+  "gender": "Female",
+  "occupation": "Scientist",
+  "created_at": "2024-09-22T13:40:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558b"
+  },
+  "name": "Ricardo",
+  "lastname": "Fuentes",
+  "email": "ricardo.fuentes@example.com",
+  "age": 29,
+  "address": "Calle del Norte 4, Trujillo",
+  "phone": "+51 924 567 890",
+  "gender": "Male",
+  "occupation": "Business Analyst",
+  "created_at": "2024-09-22T13:45:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558c"
+  },
+  "name": "Gabriela",
+  "lastname": "Vega",
+  "email": "gabriela.vega@example.com",
+  "age": 24,
+  "address": "Calle Santa Rosa 15, Cusco",
+  "phone": "+51 935 678 901",
+  "gender": "Female",
+  "occupation": "Nurse",
+  "created_at": "2024-09-22T13:50:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558d"
+  },
+  "name": "Santiago",
+  "lastname": "Coronado",
+  "email": "santiago.coronado@example.com",
+  "age": 32,
+  "address": "Calle La Paz 23, Iquitos",
+  "phone": "+51 946 789 012",
+  "gender": "Male",
+  "occupation": "Pilot",
+  "created_at": "2024-09-22T13:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558e"
+  },
+  "name": "Ana",
+  "lastname": "Morales",
+  "email": "ana.morales@example.com",
+  "age": 28,
+  "address": "Calle de los Olivos 29, Piura",
+  "phone": "+51 917 654 321",
+  "gender": "Female",
+  "occupation": "Physiotherapist",
+  "created_at": "2024-09-22T14:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb721558f"
+  },
+  "name": "Diego",
+  "lastname": "Alfaro",
+  "email": "diego.alfaro@example.com",
+  "age": 26,
+  "address": "Calle del Valle 6, Huancayo",
+  "phone": "+51 928 789 012",
+  "gender": "Male",
+  "occupation": "Web Developer",
+  "created_at": "2024-09-22T14:05:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb7215590"
+  },
+  "name": "Claudia",
+  "lastname": "Gutiérrez",
+  "email": "claudia.gutierrez@example.com",
+  "age": 25,
+  "address": "Calle de la Amistad 34, Lima",
+  "phone": "+51 919 123 456",
+  "gender": "Female",
+  "occupation": "Fashion Designer",
+  "created_at": "2024-09-22T14:10:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb7215591"
+  },
+  "name": "Fernando",
+  "lastname": "Sánchez",
+  "email": "fernando.sanchez@example.com",
+  "age": 30,
+  "address": "Av. Los Reyes 18, Arequipa",
+  "phone": "+51 914 234 567",
+  "gender": "Male",
+  "occupation": "Journalist",
+  "created_at": "2024-09-22T14:15:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f056d490d5ab4fb7215592"
+  },
+  "name": "Camila",
+  "lastname": "Ponce",
+  "email": "camila.ponce@example.com",
+  "age": 29,
+  "address": "Calle de la Libertad 47, Trujillo",
+  "phone": "+51 910 567 890",
+  "gender": "Female",
+  "occupation": "Marketing Specialist",
+  "created_at": "2024-09-22T14:20:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3203"
+  },
+  "name": "Ana María",
+  "lastname": "González",
+  "email": "ana.gonzalez@example.com",
+  "age": 28,
+  "address": "Av. Libertad 456, Lima",
+  "phone": "+51 987 654 321",
+  "gender": "Female",
+  "occupation": "Engineer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3204"
+  },
+  "name": "Carlos Alberto",
+  "lastname": "Martínez",
+  "email": "carlos.martinez@example.com",
+  "age": 34,
+  "address": "Calle El Sol 789, Arequipa",
+  "phone": "+51 912 345 678",
+  "gender": "Male",
+  "occupation": "Teacher",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3205"
+  },
+  "name": "Laura",
+  "lastname": "Torres",
+  "email": "laura.torres@example.com",
+  "age": 22,
+  "address": "Calle de la Paz 101, Trujillo",
+  "phone": "+51 976 543 210",
+  "gender": "Female",
+  "occupation": "Designer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3206"
+  },
+  "name": "Jorge Luis",
+  "lastname": "Fernández",
+  "email": "jorge.fernandez@example.com",
+  "age": 40,
+  "address": "Callejón de la Amistad 202, Cusco",
+  "phone": "+51 933 222 111",
+  "gender": "Male",
+  "occupation": "Architect",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3207"
+  },
+  "name": "Sofía",
+  "lastname": "Mendoza",
+  "email": "sofia.mendoza@example.com",
+  "age": 30,
+  "address": "Av. los Olivos 303, Piura",
+  "phone": "+51 945 678 912",
+  "gender": "Female",
+  "occupation": "Doctor",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3208"
+  },
+  "name": "Daniel",
+  "lastname": "Ramírez",
+  "email": "daniel.ramirez@example.com",
+  "age": 27,
+  "address": "Calle La Victoria 404, Iquitos",
+  "phone": "+51 928 333 444",
+  "gender": "Male",
+  "occupation": "Chef",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b3209"
+  },
+  "name": "Isabella",
+  "lastname": "Castillo",
+  "email": "isabella.castillo@example.com",
+  "age": 19,
+  "address": "Av. San Juan 505, Huancayo",
+  "phone": "+51 912 567 890",
+  "gender": "Female",
+  "occupation": "Student",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b320a"
+  },
+  "name": "Fernando",
+  "lastname": "Pérez",
+  "email": "fernando.perez@example.com",
+  "age": 35,
+  "address": "Calle Los Jardines 606, Tacna",
+  "phone": "+51 921 444 555",
+  "gender": "Male",
+  "occupation": "Manager",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b320b"
+  },
+  "name": "Camila",
+  "lastname": "Sánchez",
+  "email": "camila.sanchez@example.com",
+  "age": 24,
+  "address": "Calle Independencia 707, Huánuco",
+  "phone": "+51 933 888 999",
+  "gender": "Female",
+  "occupation": "Journalist",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e3447734fa5a79b320c"
+  },
+  "name": "Diego",
+  "lastname": "Rojas",
+  "email": "diego.rojas@example.com",
+  "age": 31,
+  "address": "Calle Libertad 808, Puno",
+  "phone": "+51 918 222 333",
+  "gender": "Male",
+  "occupation": "Software Developer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b320e"
+  },
+  "name": "María José",
+  "lastname": "Alvarez",
+  "email": "maria.alvarez@example.com",
+  "age": 29,
+  "address": "Calle San Martín 111, Lima",
+  "phone": "+51 947 123 789",
+  "gender": "Female",
+  "occupation": "Nurse",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b320f"
+  },
+  "name": "Ricardo",
+  "lastname": "Salazar",
+  "email": "ricardo.salazar@example.com",
+  "age": 32,
+  "address": "Calle Unión 222, Arequipa",
+  "phone": "+51 954 321 654",
+  "gender": "Male",
+  "occupation": "Electrician",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3210"
+  },
+  "name": "Valentina",
+  "lastname": "Cruz",
+  "email": "valentina.cruz@example.com",
+  "age": 26,
+  "address": "Av. Las Flores 333, Trujillo",
+  "phone": "+51 965 432 198",
+  "gender": "Female",
+  "occupation": "Biologist",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3211"
+  },
+  "name": "Luis Fernando",
+  "lastname": "Jiménez",
+  "email": "luis.jimenez@example.com",
+  "age": 38,
+  "address": "Calle Los Castaños 444, Cusco",
+  "phone": "+51 933 555 678",
+  "gender": "Male",
+  "occupation": "Lawyer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3212"
+  },
+  "name": "Claudia",
+  "lastname": "Ramírez",
+  "email": "claudia.ramirez@example.com",
+  "age": 23,
+  "address": "Av. La Libertad 555, Piura",
+  "phone": "+51 981 111 222",
+  "gender": "Female",
+  "occupation": "Graphic Designer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3213"
+  },
+  "name": "Oscar",
+  "lastname": "Vega",
+  "email": "oscar.vega@example.com",
+  "age": 30,
+  "address": "Calle Las Flores 666, Iquitos",
+  "phone": "+51 994 222 333",
+  "gender": "Male",
+  "occupation": "Mechanic",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3214"
+  },
+  "name": "Natalia",
+  "lastname": "Maldonado",
+  "email": "natalia.maldonado@example.com",
+  "age": 27,
+  "address": "Calle Nueva 777, Huancayo",
+  "phone": "+51 918 333 444",
+  "gender": "Female",
+  "occupation": "Accountant",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3215"
+  },
+  "name": "Fernando",
+  "lastname": "Ochoa",
+  "email": "fernando.ochoa@example.com",
+  "age": 36,
+  "address": "Calle de la Paz 888, Tacna",
+  "phone": "+51 932 444 555",
+  "gender": "Male",
+  "occupation": "Pharmacist",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3216"
+  },
+  "name": "Tamara",
+  "lastname": "Guerrero",
+  "email": "tamara.guerrero@example.com",
+  "age": 21,
+  "address": "Calle Los Pinos 999, Huánuco",
+  "phone": "+51 947 555 666",
+  "gender": "Female",
+  "occupation": "Web Developer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05e4a47734fa5a79b3217"
+  },
+  "name": "Sergio",
+  "lastname": "Cabrera",
+  "email": "sergio.cabrera@example.com",
+  "age": 39,
+  "address": "Calle Progreso 1000, Puno",
+  "phone": "+51 925 666 777",
+  "gender": "Male",
+  "occupation": "Sales Manager",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b3219"
+  },
+  "name": "Ana",
+  "lastname": "Castañeda",
+  "email": "ana.castaneda@example.com",
+  "age": 28,
+  "address": "Calle Los Olivos 123, Lima",
+  "phone": "+51 912 345 678",
+  "gender": "Female",
+  "occupation": "Software Engineer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321a"
+  },
+  "name": "Carlos",
+  "lastname": "López",
+  "email": "carlos.lopez@example.com",
+  "age": 37,
+  "address": "Av. Los Héroes 456, Arequipa",
+  "phone": "+51 914 567 890",
+  "gender": "Male",
+  "occupation": "Teacher",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321b"
+  },
+  "name": "Marisol",
+  "lastname": "Ramírez",
+  "email": "marisol.ramirez@example.com",
+  "age": 22,
+  "address": "Calle Nueva 789, Trujillo",
+  "phone": "+51 917 654 321",
+  "gender": "Female",
+  "occupation": "Designer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321c"
+  },
+  "name": "Diego",
+  "lastname": "Fernández",
+  "email": "diego.fernandez@example.com",
+  "age": 31,
+  "address": "Calle San Juan 234, Cusco",
+  "phone": "+51 919 876 543",
+  "gender": "Male",
+  "occupation": "Doctor",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321d"
+  },
+  "name": "Elena",
+  "lastname": "Pérez",
+  "email": "elena.perez@example.com",
+  "age": 29,
+  "address": "Av. La Paz 567, Piura",
+  "phone": "+51 945 678 910",
+  "gender": "Female",
+  "occupation": "Lawyer",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321e"
+  },
+  "name": "Mario",
+  "lastname": "Córdova",
+  "email": "mario.cordova@example.com",
+  "age": 34,
+  "address": "Calle San Fernando 890, Iquitos",
+  "phone": "+51 947 123 456",
+  "gender": "Male",
+  "occupation": "Architect",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b321f"
+  },
+  "name": "Sofía",
+  "lastname": "Vásquez",
+  "email": "sofia.vasquez@example.com",
+  "age": 26,
+  "address": "Calle Los Rosales 321, Huancayo",
+  "phone": "+51 951 234 567",
+  "gender": "Female",
+  "occupation": "Journalist",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b3220"
+  },
+  "name": "Andrés",
+  "lastname": "Ochoa",
+  "email": "andres.ochoa@example.com",
+  "age": 39,
+  "address": "Calle La Unión 654, Tacna",
+  "phone": "+51 953 345 678",
+  "gender": "Male",
+  "occupation": "Scientist",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b3221"
+  },
+  "name": "Paola",
+  "lastname": "Blanco",
+  "email": "paola.blanco@example.com",
+  "age": 30,
+  "address": "Calle Los Abetos 987, Chimbote",
+  "phone": "+51 912 456 789",
+  "gender": "Female",
+  "occupation": "Veterinarian",
+  "created_at": "2024-09-22T11:55:00Z"
+},
+{
+  "_id": {
+    "$oid": "66f05ebe47734fa5a79b3222"
+  },
+  "name": "Cristian",
+  "lastname": "Medina",
+  "email": "cristian.medina@example.com",
+  "age": 24,
+  "address": "Calle Libertad 432, Puno",
+  "phone": "+51 914 567 890",
+  "gender": "Male",
+  "occupation": "Marketing Specialist",
+  "created_at": "2024-09-22T11:55:00Z"
+}]
