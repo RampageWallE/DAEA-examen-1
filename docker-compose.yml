@@ -6,7 +6,7 @@ services:
     ports:
       - "8080:8080"
     networks:
-      - my-network
+      - my_network
 
   apisearch:
     build: ./WebApiSearch
@@ -15,7 +15,7 @@ services:
     ports:
       - "5000:5000"
     networks:
-      - my-network
+      - my_network
 
   frontend: 
     build: ./WebFrontend
@@ -24,7 +24,7 @@ services:
     ports:
       - "3000:3000"
     networks:
-      - my-network
+      - my_network
   
   db:
     build: ./db
