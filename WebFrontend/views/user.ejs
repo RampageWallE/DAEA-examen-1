@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .result-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .result-card img {
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .result-card h2 {
+            margin: 0;
+        }
+        .no-results {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>User List</h1>
+    <h2>
+        <a href="/users"> Inicio</a>
+    </h2> 
+    <div class="search-bar">
+        <form method="GET" action="/search">
+            <input type="text" name="query" placeholder="Search" />
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+
+    <% if (results.length === 0) { %>
+        <p class="no-results">Theres no results man.</p>
+    <% } else { %>
+        <% results.forEach(result => { %>
+            <div class="result-card">
+                <div>
+                    <h2><%= result.name %> <%= result.lastname %></h2>
+                    <p><strong>User ID:</strong> <%= result.id %></p>
+                    <p><strong>Email:</strong> <%= result.email %></p>
+                    <p><strong>Age:</strong> <%= result.age %></p>
+                    <p><strong>Address:</strong> <%= result.address %></p>
+                    <p><strong>Phone:</strong> <%= result.phone %></p>
+                    <p><strong>Gender:</strong> <%= result.gender %></p>
+                    <p><strong>Occupation:</strong> <%= result.occupation %></p>
+                    <p><strong>Created At:</strong> <%= result.created_at %></p>
+                </div>
+            </div>
+        <% }) %>
+    <% } %>
+</body>
+</html>

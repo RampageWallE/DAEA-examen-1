@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .result-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .result-card img {
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .result-card h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>El usuario del mes</h1>
+    <% results.forEach(result => { %>
+        <div class="result-card">
+            <img src="<%= result.picture.medium %>" alt="<%= result.name.first %> <%= result.name.last %>" width="100">
+            <div>
+                <h2><%= result.name.title %> <%= result.name.first %> <%= result.name.last %></h2>
+                <p><strong>Email:</strong> <%= result.email %></p>
+                <p><strong>Ubicación:</strong> <%= result.location.street.number %> <%= result.location.street.name %>, <%= result.location.city %>, <%= result.location.state %>, <%= result.location.country %> - <%= result.location.postcode %></p>
+                <p><strong>Teléfono:</strong> <%= result.phone %></p>
+                <p><strong>Celular:</strong> <%= result.cell %></p>
+                <p><strong>Fecha de Nacimiento:</strong> <%= new Date(result.dob.date).toLocaleDateString() %> (Edad: <%= result.dob.age %>)</p>
+                <p><strong>Registrado desde:</strong> <%= new Date(result.registered.date).toLocaleDateString() %> (Edad: <%= result.registered.age %>)</p>
+            </div>
+        </div>
+    <% }) %>
+</body>
+</html>
